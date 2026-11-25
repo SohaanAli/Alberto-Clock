@@ -9,36 +9,36 @@
   <link href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6df2a31485.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navdar" style="height: 90px;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
-      <a href=""><img src="../assets/images/Alberto Clock Luxury Gold Emblem.png" alt="Alberto Clock Logo"
-          height="65"></a>
+      <a href=""><img style="margin-top: 8px;" src="../assets/images/Alberto Clock Luxury Gold Emblem.png"
+          alt="Alberto Clock Logo" height="90"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="d-flex">
-          <input class="form-control ms-5" type="search" placeholder="Search" aria-label="Search">
+        <div class="d-flex gap-3" id="searchbar"
+          style=" align-items: center; justify-content: center; margin-left: 20px;">
+          <input class="form-control ms-5" id="search" style="width: 400px;" type="search"
+            placeholder="Search for watches" aria-label="Search">
           <button class="btn btn-outline-warning" type="submit">Search</button>
-        </form>
+        </div>
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           </li>
-          <li class="nav-item">
-            <strong><a class="nav-link text-warning" href="#">About Us</a></strong>
+          <li class="nav-item mx-2 me-2">
+            <strong><a class="nav-link" href="#"><i id="icons" class="fa-solid fa-users"></i></a></strong>
           </li>
-          <li class="nav-item">
-            <strong><a class="nav-link text-warning" href="#">Contact Us</a></strong>
+          <li class="nav-item mx-2 me-2">
+            <strong><a class="nav-link" href="#"><i id="icons" class="fa-solid fa-map-location-dot"></i></a></strong>
           </li>
-          <li class="nav-item">
-            <strong><a class="nav-link text-warning" href="#">Site Map</a></strong>
-          </li>
-          <li class="nav-item">
-            <strong><a class="nav-link text-warning" href="#">Visitor Counter</a></strong>
+          <li class="nav-item mx-2 me-2">
+            <strong><a class="nav-link" href="#"><i id="icons" class="fa-solid fa-cart-shopping"></i></a></strong>
           </li>
           </li>
           <li class="nav-item">
@@ -50,7 +50,7 @@
   </nav>
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navvbar" style=" background-color: rgb(197, 196, 194);">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -60,7 +60,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="gap: 50px;">
           <li class="nav-item">
-            <strong><a class="nav-link active text-dark" aria-current="page" href="#">Home</a></strong>
+            <strong><a class="nav-link active text-dark " aria-current="page" href="#">Home</a></strong>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
@@ -76,6 +76,12 @@
               </li>
               <li><a class="dropdown-item text-dark" href="#">View All Products -></a></li>
             </ul>
+          <li class="nav-item">
+            <strong><a class="nav-link text-dark" href="#">About Us</a></strong>
+          </li>
+          <li class="nav-item">
+            <strong><a class="nav-link text-dark" href="#">Contact Us</a></strong>
+          </li>
           <li class="nav-item">
             <strong><a class="nav-link text-dark" href="#">Technology</a></strong>
           </li>
@@ -96,6 +102,9 @@
 
 
 
+  
+
+
 
 
 
@@ -105,4 +114,5 @@
     crossorigin="anonymous"></script>
 
 </body>
+
 </html>

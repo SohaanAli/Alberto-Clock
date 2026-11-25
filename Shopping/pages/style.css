@@ -1,0 +1,31 @@
+a {
+      text-decoration: none;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+      color: #d4af37;
+      content: "/";
+    }
+
+   
+    #setnow{
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+    }
+
+    #rrr{
+      width: 400px;
+    }
+
+    #navdar{
+      height: 90px;
+    }
+
+    #navvbar{
+      background-color:rgb(197, 196, 194);
+    }
+
+    #icons{
+      color: #d4af37;
+    }
